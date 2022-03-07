@@ -1,0 +1,6 @@
+input_field_search:
+  search_type: "ID"
+  value: "#search-key"
+button_field_search:
+  search_type: "CLASS"
+  value: ".search-button"

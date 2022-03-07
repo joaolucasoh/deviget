@@ -1,0 +1,12 @@
+product_container:
+  search_type: "CLASS"
+  value: ".product-container"
+button_field_search:
+  search_type: "CLASS"
+  value: ".search-button"
+product_pagination:
+  search_type: "CLASS"
+  value: ".product-pagination-wrap"
+pagination_btn_list:
+  search: "CLASS"
+  value: ".next-btn[aria-label='Next page, current page 1']"
