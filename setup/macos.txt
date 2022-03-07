@@ -1,0 +1,32 @@
+##### Configuring MacOs:
+
+What are we going to install?
+     - homebrew
+    - rbenv
+    - bundler
+    - chromedriver/geckodriver
+
+Installing homebrew:
+    Homebrew is a package manager, like ubuntu's apt-get.
+    - ruby ​​-e "$(curl -fssl https://raw.githubusercontent.com/homebrew/install/master/install)"
+
+Installing rbenv(ruby version manager):
+    - brew install rbenv ruby-build
+    - echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+    - source ~/.bash_profile
+
+Installing Ruby:
+    - rbenv install 2.6.3
+    - rbenv global 2.6.3 (setting the global version, considering we can have N versions of Ruby)
+    - ruby ​​-v (check the installed version)
+
+Installing bundler:
+Bundler is a gem used to control the dependencies of a ruby ​​project.
+    - gem install bundler
+
+Extracting chromedriver/geckodriver:
+Chromedriver is a standalone server that implements the connection protocol of webdriver for chromium, and geckodriver for Mozilla Firefox.
+Download and extract the version that matches your browser version:
+    - chromedriver: https://chromedriver.chromium.org/downloads
+    - geckodriver: https://github.com/mozilla/geckodriver/releases
+    - extract the files inside the /usr/local/bin folder

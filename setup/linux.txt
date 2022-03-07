@@ -1,0 +1,40 @@
+##### Configuring Linux:
+
+What are we going to install?
+     - Git
+    - rbenv
+    - rubybuild
+    - Ruby
+    - bundler
+    - chromedriver/geckodriver
+
+Installing git:
+    Run the following commands in the terminal:
+    - sudo apt-get update (updates the linux package manager first of all)
+    - sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+    - sudo apt-get install git
+
+Installing rbenv(ruby version manager):
+    - git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+    - echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+    - echo 'eval"$(RBENV INIT -)"' >> ~/.bashrc
+    - source ~/.bashrc
+
+Installing rubybuild:
+    - git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+Installing Ruby:
+    - rbenv install 2.6.3
+    - rbenv global 2.6.3 (setting the global version, considering we can have N versions of Ruby)
+    - ruby ​​-v (check the installed version)
+
+Installing bundler:
+Bundler is a gem used to control the dependencies of a ruby ​​project.
+    - gem install bundler
+
+Extracting chromedriver/geckodriver:
+Chromedriver is a standalone server that implements the connection protocol of webdriver for chromium, and geckodriver for Mozilla Firefox.
+Download and extract the version that matches your browser version:
+    - chromedriver: https://chromedriver.chromium.org/downloads
+    - geckodriver: https://github.com/mozilla/geckodriver/releases
+    - extract the files inside the /usr/local/bin folder

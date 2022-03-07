@@ -1,0 +1,6 @@
+##### Installing VSCode(any platform):
+
+     - https://code.visualstudio.com/DOWNLOAD
+     - install the ruby plugin (search for this id: rebornix.ruby)
+     - install the cucumber plugin (search for this id: alexkrechik.cucumberautocomplete)
+     - install vscode icons plugin (search for this id: vscode-icons-team.vscode-icons)

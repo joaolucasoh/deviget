@@ -1,0 +1,20 @@
+##### Configuring Windows:
+
+What are we going to install?
+     - Ruby
+     - Install bundler
+     - chromedriver/geckodriver
+
+Installing Ruby:
+     - http://rubyinstaller.org/downloads/ (recommended to install a version already with the devkit "Ruby+Devkit 2.6.6-1")
+     - restart your pc.
+
+Installing bundler:
+     - gem install bundler
+
+Extracting chromedriver/geckodriver:
+Chromedriver is a standalone server that implements the connection protocol of webdriver for chromium, and geckodriver for Mozilla Firefox.
+Download and extract the version that matches your browser version:
+     - chromedriver: https://chromedriver.chromium.org/downloads
+     - geckodriver: https://github.com/mozilla/geckodriver/releases
+     - extract the files inside the C:/Windows folder
